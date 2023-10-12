@@ -66,7 +66,6 @@ nav .nav-avatar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 nav .nav-avatar p {
@@ -84,5 +83,138 @@ nav .nav-avatar img {
 
 main {
     display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
 }
 
+main .left {
+    width: 70%;
+    margin-top: 2rem;
+    background-color: white;
+    margin-left: 25rem;
+    box-shadow: 0 0 15px black;
+}
+
+main .left ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    list-style-type: none;
+}
+
+main .left ul li {
+    padding: 1rem;
+}
+
+main .left ul .ilk {
+    background-color: #D2E7EC;
+    border-radius: .5rem;
+}
+
+main .main-part1 {
+    padding: .5rem;
+    box-shadow: 0 0 15px black;
+    background-color: white;
+    width: 60%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+main .main-part1 h2 {
+    color: #20889F;
+}
+
+main .main-part1 .paticipants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    padding: 1rem;
+    gap: 1rem;
+    
+}
+
+.paticipants .avatars {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.avatars-text .name {
+    font-size: 1.4rem;
+}
+
+.paticipants .avatars img {
+    width: 80px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+main .main-part1 .topFlowers {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.topFlowers .newsList {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.topFlowers .newsList img {
+    width: 40%;
+    border: 10px solid #20889F;
+    border-radius: 1rem;
+}
+
+.newsList .news {
+    font-weight: 600;
+}
+
+.newsList .writer {
+    font-size: 12px;
+    color: #20889F;
+}
+
+main .main-part2 {
+    padding: .5rem;
+    box-shadow: 0 0 15px black;
+    background-color: white;
+    width: 60%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.main-part2 h2 {
+    color: #20889F;
+}
+
+.top-news-divs {
+    display: flex;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.topNew {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.topNew img {
+    width: 100%;
+}
+
+.topNew h3{
+    margin: 1rem;
+}
