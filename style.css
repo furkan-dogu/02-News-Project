@@ -154,14 +154,14 @@ main .main-part1 .paticipants {
     border: 2px solid black;
 }
 
-main .main-part1 .topFlowers {
+main .main-part1 .topFollowers {
     display: flex;
     flex-wrap: wrap;
     margin-top: 2rem;
     padding: 1rem;
 }
 
-.topFlowers .newsList {
+.topFollowers .newsList {
     width: 50%;
     display: flex;
     align-items: center;
@@ -169,7 +169,7 @@ main .main-part1 .topFlowers {
     gap: 1rem;
 }
 
-.topFlowers .newsList img {
+.topFollowers .newsList img {
     width: 40%;
     border: 10px solid #20889F;
     border-radius: 1rem;
